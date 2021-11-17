@@ -62,6 +62,14 @@ function search(input){
 } 
 
 /*
+-----------------------------------------------------------------------------------------
+[ 
+  <name> : origin 
+  <url> : https://github.com/rooky0509/leaguehub.git
+  Present_branch : main
+]
+
+-----------------------------------------------------------------------------------------
 
 1. git remote add <name> <url>                [ remote 추가 ]
   > error: remote <name> already exists.        ㄴ[ 이미 존재한다면 ]
@@ -69,8 +77,15 @@ function search(input){
     2. git remote get-url --all <name>              ㄴ[ 저장된 모든 url조회 ]
     3. git remote set-url --delete <name> <url>     ㄴ[ url삭제 ]
 
-2. " + " 클릭            [ Changes -> Staged Changes ]
-3. " ✓ " 클릭             [ Staged Changes => commit ]
-4. git push -u origin main     [ commit => push => github ]
+2. " + " 클릭                                       [ Changes -> Staged Changes ]
 
+3. " ✓ " 클릭                                       [ Staged Changes => commit ]
+
+4. git push -u <name> main                            [ commit => push => github ]
+  > git pull origin main --allow-unrelated-histories    ㄴ[Github => Local]
+
+
+-----------------------------------------------------------------------------------------
+  git branch                 [현재 브런치 확인]
+  git branch -m master main    ㄴ[master -> main]
 */
