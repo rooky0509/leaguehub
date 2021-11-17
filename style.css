@@ -1,0 +1,32 @@
+html {
+  background: no-repeat fixed;
+  background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+
+body {
+  padding: 10px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1.5px solid #555;
+    transition: 0.2s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: #cee8ff;
+    border: 1.5px solid #222;
+}
+
+name {
+  font-size: large;
+  color: #f00;
+}
