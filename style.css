@@ -8,7 +8,11 @@ html {
 
 body {
   padding: 10px;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(5, 17, 24,0.8);
+}
+
+th, td {
+  padding: 10px;
 }
 
 input[type=text] {
@@ -28,5 +32,30 @@ input[type=text]:focus {
 
 name {
   font-size: large;
-  color: #f00;
+  color: #ff8811;
+  /* ff8811  dddddd*/
 }
+
+gold {
+  font-size: large;
+  color: #d8a
+  e4b; 
+}
+
+description {
+  font-size: medium;
+  color: #aaaaaa;
+  /* ff8811  dddddd*/
+}
+
+/* 스텟 */
+description stats attention { color: #eeeeee; }
+
+/* 설명 */
+description li magicdamage { color: #0bdfff; }
+description li speed { color: #fdffc9; } 
+
+description li raritylegendary { color: #eeeeee; }
+description li raritymythic { color: #ff8811; }
+description li attention { color: #eeeeee; }
+description li rules { color: #555555; }

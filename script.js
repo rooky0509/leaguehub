@@ -48,6 +48,8 @@ function set(itemIndex){
   document.getElementById("item").src = "http://ddragon.leagueoflegends.com/cdn/"+version+"/img/item/"+item["id"]+".png"
   document.getElementsByTagName("name")[0].innerHTML = item["data"]["name"];
   document.getElementsByTagName("gold")[0].innerHTML = item["data"]["gold"]["total"];
+  document.getElementsByTagName("description")[0].innerHTML = item["data"]["description"];
+
   document.getElementsByTagName("html")[0].style.backgroundImage = "url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg')";
 }
 
