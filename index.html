@@ -8,14 +8,12 @@
   </head>
   <body>
 
-    <input id="input" autocomplete="off" type="text" placeholder="아이템 검색" onkeyup="search(this.value)">
+    <input id="input" autocomplete="off" type="text" placeholder="아이템 검색" onkeyup="search(this.value,'item')">
     <br>
-
-
-    <table>
-      <tr>
+    <table id="item_table">
+      <tr id="view">
         <td width="1">
-          <img id="item" src="https://i.ibb.co/PTwZphM/none.png" alt="-">
+          <img src="https://i.ibb.co/PTwZphM/none.png" alt="-" title="-">
         </td>
         <td>
           <strong><name>-</name></strong>
@@ -23,7 +21,29 @@
           <gold>-</gold>
         </td>
       </tr>
-      <tr>
+      
+      <tr id="des">
+        <td colspan="2">
+          <description>-</description>
+        </td>
+      </tr>
+    </table>
+    
+    <input id="input" autocomplete="off" type="text" placeholder="챔피언 검색" onkeyup="search(this.value,'champ')">
+    <br>
+    <table id="champ_table">
+      <tr id="view">
+        <td width="1">
+          <img src="https://i.ibb.co/PTwZphM/none.png" alt="-" title="-">
+        </td>
+        <td>
+          <strong><name>-</name></strong>
+          <br>
+          <gold>-</gold>
+        </td>
+      </tr>
+      
+      <tr id="des">
         <td colspan="2">
           <description>-</description>
         </td>

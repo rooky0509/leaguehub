@@ -38,8 +38,7 @@ name {
 
 gold {
   font-size: large;
-  color: #d8a
-  e4b; 
+  color: #d8ae4b; 
 }
 
 description {
@@ -47,11 +46,11 @@ description {
   color: #aaaaaa;
   /* ff8811  dddddd*/
 }
-
-/* 스텟 */
+/*
+/ 스텟 
 description stats attention { color: #eeeeee; }
 
-/* 설명 */
+/ 설명 
 description li magicdamage { color: #0bdfff; }
 description li speed { color: #fdffc9; } 
 
@@ -59,3 +58,4 @@ description li raritylegendary { color: #eeeeee; }
 description li raritymythic { color: #ff8811; }
 description li attention { color: #eeeeee; }
 description li rules { color: #555555; }
+*/
